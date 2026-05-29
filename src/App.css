@@ -1,0 +1,88 @@
+#root {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+header,
+main,
+footer {
+  margin-bottom: 1.5rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.menu-card {
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.menu-card.weekend {
+  background-color: #e8f7e8;
+}
+
+.category-image {
+  display: block;
+  max-height: 300px;
+  width: 100%;
+}
+
+form {
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.checkbox-row {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.error-panel {
+  background-color: #fce8e8;
+  border: 1px solid #c33838;
+  border-radius: 6px;
+  padding: 0.75rem;
+}
+
+.info-message {
+  border-left: 4px solid #2f6abf;
+  margin: 0.75rem 0;
+  padding-left: 0.75rem;
+}
+
+.order-message.success {
+  color: #1f8b2d;
+}
+
+.order-message.error {
+  color: #c33838;
+}
+
+@media (min-width: 600px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

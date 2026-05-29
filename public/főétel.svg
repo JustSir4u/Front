@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="140" viewBox="0 0 220 140" role="img" aria-label="Főétel">
+  <rect width="220" height="140" fill="#fff7ef" />
+  <rect x="50" y="35" width="120" height="70" rx="12" fill="#d7764d" />
+  <circle cx="88" cy="70" r="13" fill="#f6d87d" />
+  <circle cx="132" cy="70" r="13" fill="#f6d87d" />
+</svg>
